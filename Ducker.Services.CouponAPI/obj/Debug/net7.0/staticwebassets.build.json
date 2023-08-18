@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tqMnPNtqTDve5kfFUe3sENVaNr1642o084vMBW4xGWI=",
+  "Source": "Ducker.Services.CouponAPI",
+  "BasePath": "_content/Ducker.Services.CouponAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

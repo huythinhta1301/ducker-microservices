@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FE", "FE", "{7D6CE694-99D9-43FD-99BF-5D39DC6E4D82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{1F31250A-AB79-4384-92E9-DFAF8CA007BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{CC914DEA-28BF-4EB2-A1D0-7F295062B631}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{63387DD7-AB55-4119-80D8-AC80082E6185}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ducker.Services.CouponAPI", "Ducker.Services.CouponAPI\Ducker.Services.CouponAPI.csproj", "{3F16439C-9B1A-47E4-B329-9CA1130562A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ducker.Web", "Ducker.Web\Ducker.Web.csproj", "{3BE0F6E8-2E73-4483-9C9A-3422E9AC1F05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F16439C-9B1A-47E4-B329-9CA1130562A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F16439C-9B1A-47E4-B329-9CA1130562A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F16439C-9B1A-47E4-B329-9CA1130562A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F16439C-9B1A-47E4-B329-9CA1130562A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE0F6E8-2E73-4483-9C9A-3422E9AC1F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE0F6E8-2E73-4483-9C9A-3422E9AC1F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE0F6E8-2E73-4483-9C9A-3422E9AC1F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE0F6E8-2E73-4483-9C9A-3422E9AC1F05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F16439C-9B1A-47E4-B329-9CA1130562A0} = {63387DD7-AB55-4119-80D8-AC80082E6185}
+		{3BE0F6E8-2E73-4483-9C9A-3422E9AC1F05} = {7D6CE694-99D9-43FD-99BF-5D39DC6E4D82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2D614D6-924F-4767-B86C-BF5C7DC79207}
+	EndGlobalSection
+EndGlobal
